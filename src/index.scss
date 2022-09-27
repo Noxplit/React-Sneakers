@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color:#48494a ;
+  
+}
+
+.wrapper {
+  max-width: 1080px;
+margin: 0 auto;
+margin-top: 30px;
+background-color:#ffffff;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+}
+
+
+.item{
+ 
+width: 210px;
+height: 260px;
+border: 1px solid #f3f3f3;
+border-radius: 40px;
+&:hover{
+  transform: translateY(-3%);
+  transition: transform 0.3s ease-in-out ;
+}
+
+
+}
+
+
+.drawer {
+  position: absolute;
+  width: 285px;
+  height: 100%;
+  right: 0;
+overflow: scroll;
+
+  background: #FFFFFF;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+.delete {
+
+  &:hover {
+    color:black;
+    cursor: pointer;
+  }
+}
+.button {
+  width: 400px;
+}
+
+.favorite {
+  padding-top: 150px;
+  height: 600px;
+}
+
+.skeleton {
+  margin-left: 20px;
+  
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+overflow: scroll;
+  width: 100%;
+  height: 1080px;
+  background-color:rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  opacity: 0;
+visibility: hidden;
+  transition: visibility 0.3s ease-in-out,
+   opacity 0.3s ease-in-out;
+   
+}
+
+.overlayHidden {
+  visibility: hidden;
+  
+}
+.overlayVisible{
+  visibility: visible;
+  opacity: 1;
+  .drawer {
+   
+    transform: translateX(0);
+  }
+}
+
+.headerSneakers{
+  &:hover {
+    transform: translateY(-10%);
+    transition: transform 0.3s ease-in-out ;
+  }
+}
+
+ .widthMiddle{
+  display: flex;
+  justify-content: space-between;
+ }

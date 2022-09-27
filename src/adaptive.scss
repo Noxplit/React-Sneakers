@@ -1,0 +1,105 @@
+
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width : 1500px){}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+  
+   .item {
+   margin: 0 auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   }
+}
+
+  
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+
+   .item {
+   margin: 0 auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   }
+}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+
+  .widthMiddle{
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+  
+  }
+
+  .item {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+}
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+  .cartShopping{
+    margin-left: 10px;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 440px){
+  .searchWidth320{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+.headerSneakers{
+  width: 200px;
+  margin-left: 10px;
+}
+}
+
+	/**/
+
+  @media only screen and (max-width : 369px){
+    .searchWidth320{
+      width: 250px;
+  
+    }
+    .headerSneakers {
+      margin-right: 80px;
+    }
+    .headerWidth385{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .cartShopping{
+     
+      margin-left: 100px;
+    }
+
+  }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+  .searchWidth320{
+    width: 200px;
+
+  }
+  .cartShopping{
+    margin-left: 100px;
+  }
+}
+	/**/
+
+
