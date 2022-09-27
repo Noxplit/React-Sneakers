@@ -75,7 +75,7 @@ const Main = ({
 						onChange={e => setSearchValue(e.target.value)}
 						type='text'
 						placeholder='Поиск...'
-						className='border-2 rounded-md mr-10 searchWidth320'
+						className='border-2 text-sm rounded-md mr-10 searchWidth320'
 					/>
 					<ImCancelCircle
 						onClick={() => setSearchValue('')}
